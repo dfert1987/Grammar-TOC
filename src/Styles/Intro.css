@@ -1,20 +1,74 @@
 .intro-container {
   display: flex;
   flex-direction: row;
-  padding-top: 1em;
+  justify-content: space-between;
+  padding-top: 2em;
   width: 100%;
 }
 
 .blurb-container {
-  padding-left: 4em;
-  width: 50%;
+  padding-left: 8em;
+  width: 40%;
 }
 
 .blurb {
   font-family: "Gilroy";
+  font-size: 1.25em;
+  margin-top: 0;
 }
 
 .bold-blurb {
   color: #207130;
   font-family: "Gilroy Extra Bold";
+}
+
+.key-container {
+  display: flex;
+  flex-direction: column;
+  padding-right: 8em;
+  width: 15%;
+}
+
+.key-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.key-icon {
+  height: 1.58em;
+}
+
+.key-icon-small {
+  height: 2em;
+}
+
+.key-text {
+  font-family: "Gilroy";
+  font-size: 0.9em;
+  margin-top: 0.5em;
+  padding-left: 0.55em;
+}
+
+.top-text {
+  margin-top: 0.25em;
+  padding-left: 0.75em;
+}
+
+.top-item {
+  padding-left: 0.15em;
+}
+
+.bottom-key {
+  margin-bottom: 0;
+}
+
+.solid {
+  width: 100%;
+}
+
+.asterisk {
+  font-family: "Gilroy";
+  font-size: 14px;
+  margin-bottom: 0;
+  margin-top: 0;
 }

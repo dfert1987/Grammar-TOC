@@ -1,4 +1,6 @@
 import React from "react";
+import DataIcon from "../Assets/Icons/DataIcon.png";
+import PDFIcon from "../Assets/Icons/PDFIcon.png";
 import "../Styles/Intro.css";
 
 const Intro = () => {
@@ -12,6 +14,21 @@ const Intro = () => {
           grammar and practice and apply what they have learned. Additional
           resources for each Module topic provide the instruction and practice
           in printable format as well as remediation and assessment.
+        </p>
+      </section>
+      <section className="key-container">
+        <div className="key-item top-item">
+          <img className="key-icon" alt="data icon" src={DataIcon} />
+          <p className="key-text top-text">provides data in reports*</p>
+        </div>
+        <div className="key-item">
+          <img className="key-icon-small" alt="PDF icon" src={PDFIcon} />
+          <p className="key-text bottom-key">printable</p>
+        </div>
+        <hr className="solid" />
+        <p className="asterisk">
+          * Resources that provide data can be found by searching in the{" "}
+          <b>Grammar Resources</b> tile on <b>Ed</b>.
         </p>
       </section>
     </div>
