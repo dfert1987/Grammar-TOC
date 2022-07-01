@@ -1,0 +1,57 @@
+.banner-container {
+  background-color: #207130;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.banner-text-container {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 1em;
+  padding-left: 4em;
+  padding-right: 1em;
+  padding-top: 3em;
+  margin: 0;
+}
+
+.grade-title-container {
+  color: white;
+  justify-content: space-between;
+  margin: 0;
+  padding-bottom: 0;
+  padding-right: 1.5em;
+  text-align: center;
+}
+
+.grade-banner {
+  font-family: "Gilroy Bold";
+  margin: 0;
+  padding: 0;
+  position: relative;
+  bottom: 1em;
+}
+
+.grade-number {
+  display: flex;
+  flex-direction: column;
+  font-family: "Gilroy Extra Bold";
+  font-size: 4em;
+  line-height: 0.3em;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.banner-title-container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.banner-title {
+  color: white;
+  font-family: "Gilroy Extra Bold";
+  font-size: 3.25em;
+  margin: 0;
+  padding: 0;
+}

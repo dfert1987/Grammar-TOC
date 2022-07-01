@@ -1,0 +1,36 @@
+.table-container {
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-top: 2em;
+}
+
+.table-banner {
+  background-color: #207130;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.table-banner-text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0.5em;
+  padding-left: 2em;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.module-subheader {
+  font-family: "Gilroy";
+  font-size: 1em;
+  margin-bottom: 0;
+  margin-top: 0.75em;
+}
+
+.module-header {
+  font-family: "Gilroy Extra Bold";
+  font-size: 2em;
+  margin-bottom: 0;
+  margin-top: 0.25em;
+}
