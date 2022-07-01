@@ -1,0 +1,20 @@
+.intro-container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 1em;
+  width: 100%;
+}
+
+.blurb-container {
+  padding-left: 4em;
+  width: 50%;
+}
+
+.blurb {
+  font-family: "Gilroy";
+}
+
+.bold-blurb {
+  color: #207130;
+  font-family: "Gilroy Extra Bold";
+}
