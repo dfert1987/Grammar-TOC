@@ -34,3 +34,28 @@
   margin-bottom: 0;
   margin-top: 0.25em;
 }
+
+.column-header {
+  background-color: #ebf6e1;
+}
+
+.column-header-text {
+  color: #207130;
+  font-family: "Gilroy Bold";
+  font-size: 1.25em;
+  margin: 0;
+  padding-bottom: 0.5em;
+  padding-left: 1.5em;
+  padding-top: 0.5em;
+}
+
+.left-column-item {
+  color: #0b369c;
+  font-family: "Gilroy Bold";
+  font-size: 1em;
+  padding-left: 2em;
+}
+
+.link {
+  text-decoration: none;
+}
