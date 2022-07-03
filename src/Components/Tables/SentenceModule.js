@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import TableBanner from "../TableElements/TableBanner";
 import InteractiveGrammarElements from "../TableElements/InteractiveGrammarElements";
+import AdditionalResources from "../TableElements/AdditionalResources";
 import { TheSentence } from "../../Assets/Data/TheSentence";
 import "../../Styles/Table.css";
 
@@ -15,7 +16,8 @@ const SentenceModule = () => {
     <div className="table-container">
       <TableBanner data={data} />
       <section className="two-columns">
-        <InteractiveGrammarElements data={data} />
+        <InteractiveGrammarElements data={data} className="interactive" />
+        <AdditionalResources data={data} className="additional" />
       </section>
     </div>
   );

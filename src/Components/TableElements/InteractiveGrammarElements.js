@@ -18,7 +18,7 @@ const InteractiveGrammarElements = ({ data }) => {
   const makeList = () => {
     return lessons.map((lesson, index) => (
       <a key={index} href={links[index]} className="link">
-        <p className="left-column-item">{lesson}</p>
+        <p className="column-item">{lesson}</p>
       </a>
     ));
   };

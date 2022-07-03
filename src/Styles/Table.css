@@ -35,27 +35,104 @@
   margin-top: 0.25em;
 }
 
+.two-columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  width: 100%;
+}
+
 .column-header {
   background-color: #ebf6e1;
+  width: 100%;
+}
+.interactive-container {
+  width: 50%;
+}
+
+.additional-container {
+  width: 50%;
 }
 
 .column-header-text {
   color: #207130;
-  font-family: "Gilroy Bold";
-  font-size: 1.25em;
+  font-family: "Gilroy Extra Bold";
+  font-size: 1em;
   margin: 0;
   padding-bottom: 0.5em;
-  padding-left: 1.5em;
+  padding-left: 2em;
   padding-top: 0.5em;
 }
 
-.left-column-item {
+.column-item {
   color: #0b369c;
   font-family: "Gilroy Bold";
   font-size: 1em;
   padding-left: 2em;
 }
 
+.column-item.right {
+  padding-left: 1em;
+}
+
 .link {
   text-decoration: none;
+}
+
+.subsection-header {
+  color: #207130;
+  font-family: "Gilroy Extra Bold";
+  margin-bottom: 0;
+  margin-top: 0.5em;
+}
+
+.assessment-item {
+  display: flex;
+  flex-direction: row;
+  font-family: "Gilroy";
+  justify-content: space-between;
+  padding-left: 1em;
+}
+
+.data-icon-list {
+  height: 1.45em;
+  position: relative;
+  top: 0.75em;
+}
+
+.subsection {
+  padding-bottom: 0.25em;
+  padding-left: 2em;
+}
+
+.assessment-name {
+  margin-bottom: 0;
+}
+
+.subsection-header.quick {
+  margin-top: 1em;
+}
+
+.practice-item {
+  color: #0b369c;
+  display: flex;
+  flex-direction: row;
+  font-family: "Gilroy Bold";
+  justify-content: space-between;
+  padding-left: 1em;
+}
+
+.practice-item-name {
+  color: #0b369c;
+  margin-bottom: 0;
+}
+
+.pdf-icon-list {
+  height: 1.85em;
+  position: relative;
+  top: 0.75em;
+}
+
+.subsection.assessments {
+  padding-bottom: 1em;
 }
