@@ -158,3 +158,7 @@
   border-right: 2px solid #207130;
   border-left: 2px solid #207130;
 }
+
+.table-container.bottom {
+  margin-bottom: 2em;
+}

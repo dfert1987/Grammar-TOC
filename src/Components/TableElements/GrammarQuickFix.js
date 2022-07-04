@@ -6,11 +6,17 @@ const GrammarQuickFix = ({ data }) => {
   const [links, setLinks] = useState([]);
 
   useEffect(() => {
-    const allLessons = data.map((item) => item.GRAMMAR_QUICK_FIX);
-    setLessons(allLessons);
-
-    const allLinks = data.map((item) => item.GRAMMAR_QUICK_FIX_LINKS);
-    setLinks(allLinks);
+    let allLessons = [];
+    let allLinks = [];
+    // eslint-disable-next-line array-callback-return
+    data.map((item) => {
+      if (item.GRAMMAR_QUICK_FIX !== undefined) {
+        allLessons.push(item.GRAMMAR_QUICK_FIX);
+        allLinks.push(item.GRAMMAR_QUICK_FIX_LINKS);
+      } else return null;
+      setLessons(allLessons);
+      setLinks(allLinks);
+    });
   }, [data]);
 
   const makeList = () => {
@@ -22,10 +28,14 @@ const GrammarQuickFix = ({ data }) => {
   };
 
   return (
-    <section className="subsection">
-      <h4 className="subsection-header quick">Grammar Quick Fix</h4>
-      {makeList()}
-    </section>
+    <>
+      {lessons.length > 0 ? (
+        <section className="subsection">
+          <h4 className="subsection-header quick">Grammar Quick Fix</h4>
+          {makeList()}
+        </section>
+      ) : null}
+    </>
   );
 };
 

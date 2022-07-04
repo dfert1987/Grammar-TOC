@@ -6,11 +6,17 @@ const LevelUpTutorials = ({ data }) => {
   const [links, setLinks] = useState([]);
 
   useEffect(() => {
-    const allTutorials = data.map((tutorial) => tutorial.LEVEL_UP_TUTORIALS);
-    setTutorials(allTutorials);
-
-    const allLinks = data.map((link) => link.LEVEL_UP_TUTORIALS_LINKS);
-    setLinks(allLinks);
+    let allTutorials = [];
+    let allLinks = [];
+    // eslint-disable-next-line array-callback-return
+    data.map((item) => {
+      if (item.LEVEL_UP_TUTORIALS !== undefined) {
+        allTutorials.push(item.LEVEL_UP_TUTORIALS);
+        allLinks.push(item.LEVEL_UP_TUTORIALS_LINKS);
+      } else return null;
+      setTutorials(allTutorials);
+      setLinks(allLinks);
+    });
   }, [data]);
 
   const makeList = () => {
@@ -22,10 +28,14 @@ const LevelUpTutorials = ({ data }) => {
   };
 
   return (
-    <section className="subsection assessments bottom">
-      <h4 className="subsection-header">Level Up Tutorials</h4>
-      {makeList()}
-    </section>
+    <>
+      {tutorials.length > 0 ? (
+        <section className="subsection assessments bottom">
+          <h4 className="subsection-header">Level Up Tutorials</h4>
+          {makeList()}
+        </section>
+      ) : null}
+    </>
   );
 };
 

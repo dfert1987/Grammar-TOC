@@ -6,8 +6,14 @@ const LevelUpPractice = ({ data }) => {
   const [tests, setTests] = useState([]);
 
   useEffect(() => {
-    const allTests = data.map((item) => item.LEVEL_UP_PRACTICE_TESTS);
-    setTests(allTests);
+    let allTests = [];
+    // eslint-disable-next-line array-callback-return
+    data.map((item) => {
+      if (item.LEVEL_UP_PRACTICE_TEST_TESTS !== undefined) {
+        allTests.push(item.LEVEL_UP_PRACTICE_TEST_TESTS);
+      } else return null;
+      setTests(allTests);
+    });
   }, [data]);
 
   const getIcon = (index) => {
@@ -27,11 +33,17 @@ const LevelUpPractice = ({ data }) => {
     );
   };
 
+  console.log(tests);
+
   return (
-    <section className="subsection assessments">
-      <h4 className="subsection-header bottom">Level Up Practice</h4>
-      {makeList()}
-    </section>
+    <>
+      {tests.length > 0 ? (
+        <section className="subsection assessments">
+          <h4 className="subsection-header bottom">Level Up Practice</h4>
+          {makeList()}
+        </section>
+      ) : null}
+    </>
   );
 };
 
