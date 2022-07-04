@@ -47,6 +47,8 @@
   width: 100%;
 }
 .interactive-container {
+  border-bottom: 2px solid #207130;
+  border-left: 2px solid #207130;
   width: 50%;
 }
 
@@ -83,7 +85,7 @@
   color: #207130;
   font-family: "Gilroy Extra Bold";
   margin-bottom: 0;
-  margin-top: 0.5em;
+  margin-top: 0.75em;
 }
 
 .assessment-item {
@@ -92,12 +94,13 @@
   font-family: "Gilroy";
   justify-content: space-between;
   padding-left: 1em;
+  padding-right: 1.25em;
 }
 
 .data-icon-list {
   height: 1.45em;
   position: relative;
-  top: 0.75em;
+  top: 0.6em;
 }
 
 .subsection {
@@ -120,6 +123,7 @@
   font-family: "Gilroy Bold";
   justify-content: space-between;
   padding-left: 1em;
+  padding-right: 1em;
 }
 
 .practice-item-name {
@@ -135,4 +139,22 @@
 
 .subsection.assessments {
   padding-bottom: 1em;
+}
+
+.column-item.right.bottom {
+  margin-bottom: 0;
+}
+
+.subsection-header.bottom {
+  margin-top: 0.5em;
+}
+
+.subsection.assessments.bottom {
+  padding-bottom: 0.4em;
+}
+
+.additional-container {
+  border-bottom: 2px solid #207130;
+  border-right: 2px solid #207130;
+  border-left: 2px solid #207130;
 }

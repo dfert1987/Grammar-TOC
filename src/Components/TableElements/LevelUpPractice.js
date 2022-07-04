@@ -2,25 +2,25 @@ import React, { useState, useEffect } from "react";
 import DataIcon from "../../Assets/Icons/DataIcon.png";
 import "../../Styles/Table.css";
 
-const GrammarAssessments = ({ data }) => {
-  const [assessments, setAssessments] = useState([]);
+const LevelUpPractice = ({ data }) => {
+  const [tests, setTests] = useState([]);
 
   useEffect(() => {
-    const allAssessments = data.map((item) => item.GRAMMAR_ASSESSMENTS);
-    setAssessments(allAssessments);
+    const allTests = data.map((item) => item.LEVEL_UP_PRACTICE_TESTS);
+    setTests(allTests);
   }, [data]);
 
   const getIcon = (index) => {
-    if (data[index].ASSEMENT_ICON === true) {
+    if (data[index].LEVEL_UP_PRACTICE_TEST_ICONs === true) {
       return <img className="data-icon-list" alt="data icon" src={DataIcon} />;
     }
   };
 
   const makeList = () => {
-    return assessments.map((assessment, index) =>
-      assessment ? (
+    return tests.map((test, index) =>
+      test ? (
         <span key={index} className="assessment-item">
-          <p className="assessment-name">{assessment}</p>
+          <p className="assessment-name">{test}</p>
           {getIcon(index)}
         </span>
       ) : null
@@ -29,10 +29,10 @@ const GrammarAssessments = ({ data }) => {
 
   return (
     <section className="subsection assessments">
-      <h4 className="subsection-header">Grammar Assessements</h4>
+      <h4 className="subsection-header bottom">Level Up Practice</h4>
       {makeList()}
     </section>
   );
 };
 
-export default GrammarAssessments;
+export default LevelUpPractice;

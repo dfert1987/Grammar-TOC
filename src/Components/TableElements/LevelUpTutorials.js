@@ -16,13 +16,13 @@ const LevelUpTutorials = ({ data }) => {
   const makeList = () => {
     return tutorials.map((tutorial, index) => (
       <a key={index} href={links[index]} className="link">
-        <p className="column-item right">{tutorial}</p>
+        <p className="column-item right bottom">{tutorial}</p>
       </a>
     ));
   };
 
   return (
-    <section className="subsection">
+    <section className="subsection assessments bottom">
       <h4 className="subsection-header">Level Up Tutorials</h4>
       {makeList()}
     </section>

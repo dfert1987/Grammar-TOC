@@ -28,7 +28,7 @@ const EditablePractice = ({ data }) => {
   };
 
   return (
-    <section className="subsection">
+    <section className="subsection assessments">
       <h4 className="subsection-header">Editable Grammar Practice</h4>
       {makeList()}
     </section>
