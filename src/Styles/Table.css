@@ -100,7 +100,7 @@
 .data-icon-list {
   height: 1.45em;
   position: relative;
-  top: 0.6em;
+  top: 1em;
 }
 
 .subsection {
@@ -129,6 +129,7 @@
 .practice-item-name {
   color: #0b369c;
   margin-bottom: 0;
+  padding-right: 0.5em;
 }
 
 .pdf-icon-list {
