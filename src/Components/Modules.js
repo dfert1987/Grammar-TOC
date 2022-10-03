@@ -52,15 +52,15 @@ const SentenceModule = () => {
   }, []);
 
   return (
-    <>
-      <div className="table-container">
+    <div className="whole-table">
+      <table className="table-container">
         <TableBanner data={data} />
         <section className="two-columns">
           <InteractiveGrammarElements data={data} className="interactive" />
           <AdditionalResources data={data} className="additional" />
         </section>
-      </div>
-      <div className="table-container">
+      </table>
+      <table className="table-container">
         <TableBanner data={dataNouns} />
         <section className="two-columns">
           <InteractiveGrammarElements
@@ -69,8 +69,8 @@ const SentenceModule = () => {
           />
           <AdditionalResources data={dataNouns} className="additional" />
         </section>
-      </div>
-      <div className="table-container">
+      </table>
+      <table className="table-container">
         <TableBanner data={dataVerbs} />
         <section className="two-columns">
           <InteractiveGrammarElements
@@ -79,15 +79,15 @@ const SentenceModule = () => {
           />
           <AdditionalResources data={dataVerbs} className="additional" />
         </section>
-      </div>
-      <div className="table-container">
+      </table>
+      <table className="table-container">
         <TableBanner data={dataPrep} />
         <section className="two-columns">
           <InteractiveGrammarElements data={dataPrep} className="interactive" />
           <AdditionalResources data={dataPrep} className="additional" />
         </section>
-      </div>
-      <div className="table-container">
+      </table>
+      <table className="table-container">
         <TableBanner data={dataComplements} />
         <section className="two-columns">
           <InteractiveGrammarElements
@@ -96,8 +96,8 @@ const SentenceModule = () => {
           />
           <AdditionalResources data={dataComplements} className="additional" />
         </section>
-      </div>
-      <div className="table-container">
+      </table>
+      <table className="table-container">
         <TableBanner data={dataAgreements} />
         <section className="two-columns">
           <InteractiveGrammarElements
@@ -106,8 +106,8 @@ const SentenceModule = () => {
           />
           <AdditionalResources data={dataAgreements} className="additional" />
         </section>
-      </div>
-      <div className="table-container">
+      </table>
+      <table className="table-container">
         <TableBanner data={dataUsingVerbs} />
         <section className="two-columns">
           <InteractiveGrammarElements
@@ -116,8 +116,8 @@ const SentenceModule = () => {
           />
           <AdditionalResources data={dataUsingVerbs} className="additional" />
         </section>
-      </div>
-      <div className="table-container">
+      </table>
+      <table className="table-container">
         <TableBanner data={dataPronouns} />
         <section className="two-columns">
           <InteractiveGrammarElements
@@ -126,8 +126,8 @@ const SentenceModule = () => {
           />
           <AdditionalResources data={dataPronouns} className="additional" />
         </section>
-      </div>
-      <div className="table-container">
+      </table>
+      <table className="table-container">
         <TableBanner data={dataModifiers} />
         <section className="two-columns">
           <InteractiveGrammarElements
@@ -136,8 +136,8 @@ const SentenceModule = () => {
           />
           <AdditionalResources data={dataModifiers} className="additional" />
         </section>
-      </div>
-      <div className="table-container">
+      </table>
+      <table className="table-container">
         <TableBanner data={dataGlossary} />
         <section className="two-columns">
           <InteractiveGrammarElements
@@ -146,8 +146,8 @@ const SentenceModule = () => {
           />
           <AdditionalResources data={dataGlossary} className="additional" />
         </section>
-      </div>
-      <div className="table-container">
+      </table>
+      <table className="table-container">
         <TableBanner data={dataCapitals} />
         <section className="two-columns">
           <InteractiveGrammarElements
@@ -156,8 +156,8 @@ const SentenceModule = () => {
           />
           <AdditionalResources data={dataCapitals} className="additional" />
         </section>
-      </div>
-      <div className="table-container">
+      </table>
+      <table className="table-container">
         <TableBanner data={dataPunctuation} />
         <section className="two-columns">
           <InteractiveGrammarElements
@@ -166,8 +166,8 @@ const SentenceModule = () => {
           />
           <AdditionalResources data={dataPunctuation} className="additional" />
         </section>
-      </div>
-      <div className="table-container">
+      </table>
+      <table className="table-container">
         <TableBanner data={dataPunctuation2} />
         <section className="two-columns">
           <InteractiveGrammarElements
@@ -176,8 +176,8 @@ const SentenceModule = () => {
           />
           <AdditionalResources data={dataPunctuation2} className="additional" />
         </section>
-      </div>
-      <div className="table-container bottom">
+      </table>
+      <table className="table-container bottom">
         <TableBanner data={dataSpelling} />
         <section className="two-columns">
           <InteractiveGrammarElements
@@ -186,8 +186,8 @@ const SentenceModule = () => {
           />
           <AdditionalResources data={dataSpelling} className="additional" />
         </section>
-      </div>
-    </>
+      </table>
+    </div>
   );
 };
 

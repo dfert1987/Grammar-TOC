@@ -39,7 +39,7 @@ const LevelUpPractice = ({ data }) => {
     <>
       {tests.length > 0 ? (
         <section className="subsection assessments">
-          <h4 className="subsection-header bottom">Level Up Practice</h4>
+          <h5 className="subsection-header bottom">Level Up Practice</h5>
           {makeList()}
         </section>
       ) : null}
