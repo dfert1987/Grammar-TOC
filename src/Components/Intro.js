@@ -60,14 +60,6 @@ const Intro = () => {
                     </p>
                 </section>
             </div>
-            <p className='blurb bottom'>
-                <b className='bold-blurb'>NOTE: </b>To activate the links in
-                this menu, go to Discover and click on a resource in the Student
-                eBook for Unit 1. This will ensure that you have an active
-                session on Ed before you begin clicking on Grammar Resources. If
-                you do not have an active session, you will be redirected to the
-                HMH home page.
-            </p>
         </div>
     );
 };

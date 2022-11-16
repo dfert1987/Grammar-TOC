@@ -12,12 +12,12 @@ const TableBanner = ({ data }) => {
     }, [data]);
 
     return (
-        <div className='table-banner'>
-            <section className='table-banner-text'>
-                <h2 className='module-subheader'>INTERACTIVE GRAMMAR MODULE</h2>
-                <h3 className='module-header'>{title}</h3>
-            </section>
-        </div>
+        <thead className='table-banner'>
+            <tr className='table-banner-text'>
+                <td className='module-subheader'>INTERACTIVE GRAMMAR MODULE</td>
+                <td className='module-header'>{title}</td>
+            </tr>
+        </thead>
     );
 };
 
