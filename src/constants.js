@@ -14,4 +14,7 @@ export const urls = {
     'www.hmhco.com': 'https://papi.hmhco.com/lti-platform',
 };
 // enter a grade 6 through 12 to populate TOC
-export const gradeLevel = 8;
+export const gradeLevel = 12;
+
+// enter a region. (NA, TX, FL, VA, TN)
+export const region = 'NA';

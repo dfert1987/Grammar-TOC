@@ -17,6 +17,8 @@ export const PunctuationIIG12 = [
             'https://www.hmhco.com/content/literature/level_up/lit131/index.html',
         LEVEL_UP_PRACTICE_TESTS: 'Semicolons',
         LEVEL_UP_PRACTICE_TEST_ICONs: true,
+        RESOURCE_ID:
+            'l_6370159c-028e-465e-8fa1-85704a5204a5_108a5653-2039-486b-9cf7-ca0a405491a3',
     },
     {
         LESSONS: 'Semicolons and Colons',
@@ -32,6 +34,8 @@ export const PunctuationIIG12 = [
             'https://www.hmhco.com/content/literature/level_up/lit130/index.html',
         LEVEL_UP_PRACTICE_TESTS: 'Colons',
         LEVEL_UP_PRACTICE_TEST_ICONs: true,
+        RESOURCE_ID:
+            'l_ad683668-86cf-4077-83cc-249da761ee64_108a5653-2039-486b-9cf7-ca0a405491a3',
     },
     {
         LESSONS: 'Other Marks of Punctuation',
@@ -45,6 +49,8 @@ export const PunctuationIIG12 = [
             'https://www.hmhco.com/content/literature/level_up/lit133/index.html',
         LEVEL_UP_PRACTICE_TESTS: 'Parentheses, Hyphens, and Dashes',
         LEVEL_UP_PRACTICE_TEST_ICONs: true,
+        RESOURCE_ID:
+            'l_af0c58bf-a9a7-468e-959f-93c166f93ae0_108a5653-2039-486b-9cf7-ca0a405491a3_1243',
     },
     {
         LESSONS: 'Italics',
@@ -58,6 +64,8 @@ export const PunctuationIIG12 = [
             'https://www.hmhco.com/content/literature/level_up/lit126/index.html',
         LEVEL_UP_PRACTICE_TESTS: 'Punctuating Titles',
         LEVEL_UP_PRACTICE_TEST_ICONs: true,
+        RESOURCE_ID:
+            'l_1780d447-a9ff-45de-bff2-8b116aeaece0_108a5653-2039-486b-9cf7-ca0a405491a3',
     },
     {
         LESSONS: 'Apostrophes',
@@ -71,6 +79,8 @@ export const PunctuationIIG12 = [
             'https://www.hmhco.com/content/literature/level_up/lit129/index.html',
         LEVEL_UP_PRACTICE_TESTS: 'Apostrophes',
         LEVEL_UP_PRACTICE_TEST_ICONs: true,
+        RESOURCE_ID:
+            'l_2e29e7b2-7e87-497c-8d04-ffe4e5a002f1_108a5653-2039-486b-9cf7-ca0a405491a3',
     },
     {
         LESSONS: 'Quotation Marks',
@@ -84,6 +94,8 @@ export const PunctuationIIG12 = [
             'https://www.hmhco.com/content/literature/level_up/lit125/index.html',
         LEVEL_UP_PRACTICE_TESTS: 'Punctuating Quotations',
         LEVEL_UP_PRACTICE_TEST_ICONs: true,
+        RESOURCE_ID:
+            'l_b0a7df70-34ec-4f9d-bf53-d6a186d7243b_108a5653-2039-486b-9cf7-ca0a405491a3_1451',
     },
     {
         EDITABLE_GRAMMAR_PRACTICE: 'Editable Grammar Practice Answer Key',
